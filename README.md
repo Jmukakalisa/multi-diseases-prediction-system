@@ -25,7 +25,7 @@ This approach aids in timely intervention, potentially improving treatment outco
 - **Database Management**: Efficient handling of health profiles and predictions.
 - **Visualization**: Tools for clear presentation of risk assessments and model performance.
 
-## Acknowledgements:
+## Acknowledgements
 The datasets used have been referred from Kaggle.
 
 ## Important Note
