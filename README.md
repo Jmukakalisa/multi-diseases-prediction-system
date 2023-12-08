@@ -1,8 +1,6 @@
----
-
 # Multiple Disease Prediction System
 
-- **Deployed link**: jmukakalisa-multi-diseases-predict-multiple-disease-pred-4nv9hs.streamlit.app
+- **Deployed link**: [Streamlit App](https://jmukakalisa-multi-diseases-predict-multiple-disease-pred-4nv9hs.streamlit.app)
 
 ## Overview
 This project harnesses the power of Machine Learning and AI to develop a Multiple Disease Prediction System, aimed at early risk assessment for a variety of diseases. 
@@ -31,4 +29,3 @@ The datasets used have been referred from Kaggle.
 This system is designed for proactive disease detection and is not a substitute for professional medical diagnosis. 
 It is a tool to aid healthcare professionals and individuals in early health risk assessment.
 
----
