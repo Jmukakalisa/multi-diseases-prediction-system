@@ -3,7 +3,7 @@
 # Multiple Disease Prediction System
 
 - Deployed link
- 'https://jmukakalisa-multi-diseases-predict-multiple-disease-pred-4nv9hs.streamlit.app/'
+jmukakalisa-multi-diseases-predict-multiple-disease-pred-4nv9hs.streamlit.app/
 
 ## Overview
 This project harnesses the power of Machine Learning and AI to develop a Multiple Disease Prediction System, aimed at early risk assessment for a variety of diseases. 
