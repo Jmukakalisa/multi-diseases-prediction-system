@@ -22,6 +22,9 @@ This approach aids in timely intervention, potentially improving treatment outco
 - **Database Management**: Efficient handling of health profiles and predictions.
 - **Visualization**: Tools for clear presentation of risk assessments and model performance.
 
+## Acknowledgements:
+The datasets used have been referred from Kaggle.
+
 ## Important Note
 This system is designed for proactive disease detection and is not a substitute for professional medical diagnosis. 
 It is a tool to aid healthcare professionals and individuals in early health risk assessment.
