@@ -398,12 +398,14 @@ if (selected == "Parkinsons Prediction"):
         if None in input_data:
             st.error("Invalid input. Please enter numeric values.")
         else:
-            # Create DataFrame for prediction
+            # Creating DataFrame for prediction with correct column names
             data = pd.DataFrame([input_data], columns=[
-                'fo', 'fhi', 'flo', 'Jitter_percent', 'Jitter_Abs', 'RAP', 'PPQ', 'DDP', 'Shimmer', 'Shimmer_dB', 'APQ3', 'APQ5', 
-                'APQ', 'DDA', 'NHR', 'HNR', 'RPDE', 'DFA', 'spread1', 'spread2', 'D2', 'PPE'
+                'MDVP:Fo(Hz)', 'MDVP:Fhi(Hz)', 'MDVP:Flo(Hz)', 'MDVP:Jitter(%)', 'MDVP:Jitter(Abs)', 
+                'MDVP:RAP', 'MDVP:PPQ', 'Jitter:DDP', 'MDVP:Shimmer', 'MDVP:Shimmer(dB)', 'Shimmer:APQ3', 
+                'Shimmer:APQ5', 'MDVP:APQ', 'Shimmer:DDA', 'NHR', 'HNR', 'RPDE', 'DFA', 
+                'spread1', 'spread2', 'D2', 'PPE'
             ])
-            
+
             # Make prediction
             parkinsons_prediction = parkinsons_model.predict(data)
 
